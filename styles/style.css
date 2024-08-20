@@ -1,0 +1,86 @@
+body {
+    width: 960px;
+    margin: auto;
+}
+
+h1 { 
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.header-image {
+    width: 960px;
+    margin: 0;
+}
+
+.global-nav {
+    background-color: black;
+    display: flex;
+    height: 70px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-item {
+    margin: auto;
+    font-size: 30px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:visited {
+    color: white;
+}
+
+.container {
+    display: flex;
+    padding: 0 20px;
+}
+
+.content {
+    flex-basis: 75%;
+}
+
+.sidebar {
+    flex-basis: 25%;
+}
+
+.annotation {
+    color: gray;
+    font-size: 0.8em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px 19px;
+    border:  2px solid black;
+}
+
+th {
+    border-bottom: 5px solid black;
+}
+
+td:first-child {
+    border-right: 3px dotted black
+}
+
+.build_image {
+    width: 500px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
