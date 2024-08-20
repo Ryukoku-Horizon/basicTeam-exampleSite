@@ -3,7 +3,7 @@ body {
     margin: auto;
 }
 
-h1 { 
+h1 {
     font-size: 35px;
 }
 
@@ -26,10 +26,11 @@ h3 {
     height: 70px;
     list-style-type: none;
     margin: 0;
+    justify-content: space-evenly;
 }
 
 .nav-item {
-    margin: auto;
+    margin: auto 0;
     font-size: 30px;
 }
 
@@ -40,6 +41,10 @@ h3 {
 
 .nav-item a:visited {
     color: white;
+}
+
+.nav-item a:hover {
+    color: gray;
 }
 
 .container {
@@ -83,4 +88,12 @@ td:first-child {
 
 .sidebar ul {
     list-style-type: none;
+}
+
+.sidebar a {
+    color: black;
+}
+
+.sidebar a:visited {
+    color: black;
 }
